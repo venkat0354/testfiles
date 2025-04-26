@@ -1,0 +1,16 @@
+https://lv-sub-inv-dev-appsvc.azurewebsites.net/subinvapi/graphql/
+
+
+query {
+  expenseDetails(
+    invoiceDate: null
+    first: null
+    after: null
+    last: null
+    before: null
+    where: null
+    order: null
+  ) {
+    totalCount
+  }
+}
