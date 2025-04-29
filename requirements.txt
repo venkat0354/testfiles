@@ -1,6 +1,20 @@
 pytest
 requests
 python-dotenv
+pytest-html
 
 1) pip install -r requirements.txt
 2) (Create this simple file pytest.ini to configure pytest)
+
+
+Generate HTML Report from Pytest
+pip install pytest-html
+ Run pytest and generate HTML report
+pytest -v --html=report.html(That will create a file called report.html in your project folder)
+
+Add Negative Test (to test failures)
+
+We’ll write a test where we send a bad query (for example, ask for a field that doesn’t exist).
+
+⸻
+
