@@ -18,3 +18,14 @@ We’ll write a test where we send a bad query (for example, ask for a field tha
 
 ⸻
 
+subinv_graphql_tests/
+├── graphql_queries/
+│   └── expense_details_query.graphql
+├── tests/
+│   └── test_expense_details.py
+├── utils/
+│   └── graphql_client.py
+├── conftest.py
+├── requirements.txt
+├── pytest.ini
+└── report.html  <-- test report generated
